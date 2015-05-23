@@ -1,0 +1,176 @@
+{
+  "view": {
+    "data": {
+      "path": "view",
+      "name": "view",
+      "type": "mat4"
+    },
+    "index": 0
+  },
+  "light": {
+    "position": {
+      "data": {
+        "path": "light.position",
+        "name": "position",
+        "type": "vec3"
+      },
+      "index": 1
+    },
+    "color": {
+      "data": {
+        "path": "light.color",
+        "name": "color",
+        "type": "vec3"
+      },
+      "index": 2
+    },
+    "ambient": {
+      "data": {
+        "path": "light.ambient",
+        "name": "ambient",
+        "type": "vec3"
+      },
+      "index": 3
+    },
+    "falloff": {
+      "data": {
+        "path": "light.falloff",
+        "name": "falloff",
+        "type": "float"
+      },
+      "index": 4
+    },
+    "radius": {
+      "data": {
+        "path": "light.radius",
+        "name": "radius",
+        "type": "float"
+      },
+      "index": 5
+    }
+  },
+  "tex": {
+    "data": {
+      "path": "tex",
+      "name": "tex",
+      "type": "sampler2D"
+    },
+    "index": 6
+  },
+  "projection": {
+    "data": {
+      "path": "projection",
+      "name": "projection",
+      "type": "mat4"
+    },
+    "index": 7
+  },
+  "tint3": {
+    "data": {
+      "path": "tint3",
+      "name": "tint3",
+      "type": "vec3"
+    },
+    "index": 8
+  },
+  "b": {
+    "y": {
+      "data": {
+        "path": "b.y",
+        "name": "y",
+        "type": "int"
+      },
+      "index": 9
+    },
+    "foo": {
+      "data": {
+        "path": "b.foo",
+        "name": "foo",
+        "type": "bool"
+      },
+      "index": 10
+    },
+    "b": {
+      "data": {
+        "path": "b.b",
+        "name": "b",
+        "type": "float"
+      },
+      "index": 11
+    }
+  },
+  "texCube": {
+    "data": {
+      "path": "texCube",
+      "name": "texCube",
+      "type": "samplerCube"
+    },
+    "index": 12
+  },
+  "model": {
+    "data": {
+      "path": "model",
+      "name": "model",
+      "type": "mat4"
+    },
+    "index": 13
+  },
+  "bools": {
+    "data": {
+      "path": "bools",
+      "name": "bools",
+      "type": "bvec2"
+    },
+    "index": 14
+  },
+  "lights": [{
+    "position": {
+      "data": {
+        "path": "lights[0].position",
+        "name": "position",
+        "type": "vec3"
+      },
+      "index": 15
+    },
+    "color": {
+      "data": {
+        "path": "lights[0].color",
+        "name": "color",
+        "type": "vec3"
+      },
+      "index": 16
+    },
+    "ambient": {
+      "data": {
+        "path": "lights[0].ambient",
+        "name": "ambient",
+        "type": "vec3"
+      },
+      "index": 17
+    },
+    "falloff": {
+      "data": {
+        "path": "lights[0].falloff",
+        "name": "falloff",
+        "type": "float"
+      },
+      "index": 18
+    },
+    "radius": {
+      "data": {
+        "path": "lights[0].radius",
+        "name": "radius",
+        "type": "float"
+      },
+      "index": 19
+    }
+  }],
+  "tint": {
+    "data": {
+      "path": "tint",
+      "name": "tint",
+      "type": "vec4"
+    },
+    "index": 20
+  }
+}
