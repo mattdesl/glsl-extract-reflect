@@ -46,6 +46,8 @@ The `locations` result looks like this:
 }
 ```
 
+Credit goes to @mikolalysenko; this was pulled out of [gl-shader](https://github.com/stackgl/gl-shader) and made a little more generic.
+
 ## Usage
 
 [![NPM](https://nodei.co/npm/glsl-extract-reflect.png)](https://www.npmjs.com/package/glsl-extract-reflect)
